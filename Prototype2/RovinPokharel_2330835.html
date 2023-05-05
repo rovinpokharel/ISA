@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Weather Search</title>
+  <link rel="stylesheet" href="RovinPokharel_2330835.css" />
+  <script src="RovinPokharel_2330835.js"></script>
+</head>
+
+<body>
+  <h1>Weather Search</h1>
+  <div class="location">
+    <h2 class="date"></h2>
+  </div>
+  <input type="text" id="search-input" placeholder="Enter city name" />
+  <button id="search-btn">Search</button>
+  <div id="weather">
+    <h2>Weather for <span id="cityName"></span></h2>
+    <p>Temperature: <span id="temperature"></span> &#8451;</p>
+    <p>Description: <span id="description"></span></p>
+    <p>Humidity: <span id="humidity"></span>%</p>
+    <!-- <p>Rainfall: <span id="rainfall"></span>mm</p> -->
+    <p>Wind Speed: <span id="windSpeed"></span>m/s</p>
+    <p>Pressure: <span id="pressure"></span>hPa</p>
+  </div>
+  
+  <form action="history.php" method="post">
+    <button type="submit">History</button>
+  </form>
+</body>
+
+</html>
